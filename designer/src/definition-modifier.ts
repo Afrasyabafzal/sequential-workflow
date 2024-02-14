@@ -93,7 +93,20 @@ export class DefinitionModifier {
 
 		return this.tryInsert(newStep, parentSequence, index + 1);
 	}
-
+	public async tryCopy(step: Step): Promise<boolean> {
+		try {
+			const stepJson = JSON.stringify(step);
+			await navigator.clipboard.writeText(stepJson);
+		    return true;
+		} catch (error) {
+			// Log the error or handle it as needed
+			console.error('Failed to copy step to clipboard:', error);
+	
+			// Return false to indicate the copy operation failed
+			return false;
+		}
+	}
+	
 	public replaceDefinition(definition: Definition) {
 		if (!definition) {
 			throw new Error('Definition is empty');
