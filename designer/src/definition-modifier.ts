@@ -95,14 +95,9 @@ export class DefinitionModifier {
 	}
 	public async tryCopy(step: Step): Promise<boolean> {
 		try {
-			// Serialize the Step object to a JSON string
 			const stepJson = JSON.stringify(step);
-	
-			// Use the Clipboard API to copy the JSON string to the clipboard
 			await navigator.clipboard.writeText(stepJson);
-	
-			// Return true to indicate the copy operation was successful
-			return true;
+		    return true;
 		} catch (error) {
 			// Log the error or handle it as needed
 			console.error('Failed to copy step to clipboard:', error);
