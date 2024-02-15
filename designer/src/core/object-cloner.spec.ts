@@ -24,8 +24,12 @@ describe('ObjectCloner', () => {
 	});
 
 	it('deepClone() clones the instance of an object even if structuredClone() is not supported', () => {
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
 		const orig = window.structuredClone;
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
 		window.structuredClone = undefined as any;
 
 		const parseSpy = spyOn(JSON, 'parse').and.callThrough();
@@ -35,10 +39,13 @@ describe('ObjectCloner', () => {
 
 		expect(orig).toBeDefined();
 		expect(parseSpy.calls.count()).toEqual(1);
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
 		expect(stringifySpy.calls.count()).toEqual(1);
 
 		expectAll(j);
-
+	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
 		window.structuredClone = orig;
 	});
 });

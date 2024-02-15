@@ -4832,6 +4832,52 @@ custom-event@~1.0.0:
   resolved "https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz"
   integrity sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==
 
+"custom-react-flow-angular-workspace@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/angular":
+  version "0.0.0"
+  resolved "file:angular"
+  dependencies:
+    "@angular/animations" "~13.3.0"
+    "@angular/common" "~13.3.0"
+    "@angular/compiler" "~13.3.0"
+    "@angular/core" "~13.3.0"
+    "@angular/forms" "~13.3.0"
+    "@angular/platform-browser" "~13.3.0"
+    "@angular/platform-browser-dynamic" "~13.3.0"
+    "@angular/router" "~13.3.0"
+    rxjs "~7.5.0"
+    tslib "^2.3.0"
+    zone.js "~0.11.4"
+
+"custom-react-flow-react-app-demo@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/demos/react-app":
+  version "0.0.0"
+  resolved "file:demos/react-app"
+  dependencies:
+    custom-react-flow "^0.18.5"
+    custom-react-flow-react "^0.18.5"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
+custom-react-flow-react@^0.18.5, "custom-react-flow-react@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/react":
+  version "0.18.5"
+  resolved "file:react"
+
+"custom-react-flow-svelte-app-demo@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/demos/svelte-app":
+  version "0.0.0"
+  resolved "file:demos/svelte-app"
+  dependencies:
+    custom-react-flow "^0.18.5"
+    custom-react-flow-svelte "^0.18.5"
+
+custom-react-flow-svelte@^0.18.5, "custom-react-flow-svelte@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/svelte":
+  version "0.18.5"
+  resolved "file:svelte"
+
+custom-react-flow@^0.18.5, "custom-react-flow@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/designer":
+  version "0.18.5"
+  resolved "file:designer"
+  dependencies:
+    sequential-workflow-model "^0.2.0"
+
 damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmjs.org/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz"
@@ -11705,52 +11751,6 @@ send@0.18.0:
     on-finished "2.4.1"
     range-parser "~1.2.1"
     statuses "2.0.1"
-
-"sequential-workflow-designer-angular-workspace@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/angular":
-  version "0.0.0"
-  resolved "file:angular"
-  dependencies:
-    "@angular/animations" "~13.3.0"
-    "@angular/common" "~13.3.0"
-    "@angular/compiler" "~13.3.0"
-    "@angular/core" "~13.3.0"
-    "@angular/forms" "~13.3.0"
-    "@angular/platform-browser" "~13.3.0"
-    "@angular/platform-browser-dynamic" "~13.3.0"
-    "@angular/router" "~13.3.0"
-    rxjs "~7.5.0"
-    tslib "^2.3.0"
-    zone.js "~0.11.4"
-
-"sequential-workflow-designer-react-app-demo@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/demos/react-app":
-  version "0.0.0"
-  resolved "file:demos/react-app"
-  dependencies:
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    sequential-workflow-designer "^0.18.5"
-    sequential-workflow-designer-react "^0.18.5"
-
-sequential-workflow-designer-react@^0.18.5, "sequential-workflow-designer-react@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/react":
-  version "0.18.5"
-  resolved "file:react"
-
-"sequential-workflow-designer-svelte-app-demo@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/demos/svelte-app":
-  version "0.0.0"
-  resolved "file:demos/svelte-app"
-  dependencies:
-    sequential-workflow-designer "^0.18.5"
-    sequential-workflow-designer-svelte "^0.18.5"
-
-sequential-workflow-designer-svelte@^0.18.5, "sequential-workflow-designer-svelte@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/svelte":
-  version "0.18.5"
-  resolved "file:svelte"
-
-sequential-workflow-designer@^0.18.5, "sequential-workflow-designer@file:/Users/appleone/Desktop/projects/copy/clone/sequential-workflow-designer/designer":
-  version "0.18.5"
-  resolved "file:designer"
-  dependencies:
-    sequential-workflow-model "^0.2.0"
 
 sequential-workflow-model@^0.2.0:
   version "0.2.0"

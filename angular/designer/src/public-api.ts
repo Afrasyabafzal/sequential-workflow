@@ -1,2 +1,2 @@
 export * from './designer.component';
-export * from './custom-react-flow.module';
+export * from './sequential-workflow-designer.module';
