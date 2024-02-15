@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Definition, Step, StepEditorContext } from 'sequential-workflow-designer';
-import { SequentialWorkflowDesigner, wrapDefinition } from 'sequential-workflow-designer-react';
+import { Definition, Step, StepEditorContext } from 'custom-react-flow';
+import { SequentialWorkflowDesigner, wrapDefinition } from 'custom-react-flow-react';
 
 export const startDefinition: Definition = {
 	sequence: [

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Definition, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from 'sequential-workflow-designer';
-	import { SequentialWorkflowDesigner } from 'sequential-workflow-designer-svelte';
+	import type { Definition, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from 'custom-react-flow';
+	import { SequentialWorkflowDesigner } from 'custom-react-flow-svelte';
 	import StepEditor from './step-editor.svelte';
 	import RootEditor from './root-editor.svelte';
 	import './style.css';
@@ -126,7 +126,7 @@
 </div>
 
 <div class="block">
-	This demo uses Svelte and <a href="https://github.com/nocode-js/sequential-workflow-designer/tree/main/svelte"
+	This demo uses Svelte and <a href="https://github.com/nocode-js/custom-react-flow/tree/main/svelte"
 		>Sequential Workflow Designer for Svelte</a
 	>.
 </div>

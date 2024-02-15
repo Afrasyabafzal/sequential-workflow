@@ -2,7 +2,7 @@
 
 This folder contains examples of Sequential Workflow Designer. All examples are written in pure JavaScript.
 
-You may run them locally or check them out [online](https://nocode-js.com/sequential-workflow-designer-examples).
+You may run them locally or check them out [online](https://nocode-js.com/custom-react-flow-examples).
 
 ## 🚀 How to Run Locally
 

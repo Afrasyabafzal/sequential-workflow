@@ -1,6 +1,6 @@
 # Demo of Sequential Workflow Designer for Svelte
 
-This project contains a simple demo of using the `sequential-workflow-designer-svelte` package.
+This project contains a simple demo of using the `custom-react-flow-svelte` package.
 
 ## 🚀 How to Run Locally
 

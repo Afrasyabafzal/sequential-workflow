@@ -1,16 +1,16 @@
-![Sequential Workflow Designer for Angular](https://raw.githubusercontent.com/nocode-js/sequential-workflow-designer/main/.github/cover.png)
+![Sequential Workflow Designer for Angular](https://raw.githubusercontent.com/nocode-js/custom-react-flow/main/.github/cover.png)
 
 # Sequential Workflow Designer for Angular
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fsequential-workflow-designer%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/sequential-workflow-designer/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/sequential-workflow-designer-angular.svg?style=flat-square)](https://npmjs.org/package/sequential-workflow-designer-angular)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fcustom-react-flow%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/custom-react-flow/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/custom-react-flow-angular.svg?style=flat-square)](https://npmjs.org/package/custom-react-flow-angular)
 
-Angular wrapper for the [Sequential Workflow Designer](https://github.com/nocode-js/sequential-workflow-designer) component.
+Angular wrapper for the [Sequential Workflow Designer](https://github.com/nocode-js/custom-react-flow) component.
 
 ## 🚀 Installation
 
 Install the following packages by [NPM](https://www.npmjs.com/) command:
 
-`npm i sequential-workflow-designer sequential-workflow-designer-angular`
+`npm i custom-react-flow custom-react-flow-angular`
 
 Add CSS files to your `angular.json` file.
 
@@ -21,9 +21,9 @@ Add CSS files to your `angular.json` file.
       "architect": {
         "build": {
           "styles": [
-            "./node_modules/sequential-workflow-designer/css/designer.css",
-            "./node_modules/sequential-workflow-designer/css/designer-light.css",
-            "./node_modules/sequential-workflow-designer/css/designer-dark.css"
+            "./node_modules/custom-react-flow/css/designer.css",
+            "./node_modules/custom-react-flow/css/designer-light.css",
+            "./node_modules/custom-react-flow/css/designer-dark.css"
           ]
         }
       }
@@ -37,7 +37,7 @@ Add CSS files to your `angular.json` file.
 Import the module:
 
 ```ts
-import { SequentialWorkflowDesignerModule } from 'sequential-workflow-designer-angular';
+import { SequentialWorkflowDesignerModule } from 'custom-react-flow-angular';
 
 @NgModule({
   imports: [
@@ -167,7 +167,7 @@ At the end attach the designer:
 </sqd-designer>
 ```
 
-Check the [demo project](https://github.com/nocode-js/sequential-workflow-designer/tree/main/demos/angular-app).
+Check the [demo project](https://github.com/nocode-js/custom-react-flow/tree/main/demos/angular-app).
 
 ## 💡 License
 

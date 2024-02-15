@@ -1,5 +1,5 @@
-@import 'sequential-workflow-designer/css/designer.css';
-@import 'sequential-workflow-designer/css/designer-light.css';
+@import 'custom-react-flow/css/designer.css';
+@import 'custom-react-flow/css/designer-light.css';
 
 html,
 body {

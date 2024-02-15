@@ -8,10 +8,10 @@ if (!version || !(/^\d+\.\d+\.\d+$/.test(version))) {
 }
 
 const dependencies = [
-	'sequential-workflow-designer',
-	'sequential-workflow-designer-react',
-	'sequential-workflow-designer-angular',
-	'sequential-workflow-designer-svelte'
+	'custom-react-flow',
+	'custom-react-flow-react',
+	'custom-react-flow-angular',
+	'custom-react-flow-svelte'
 ];
 
 function resolvePath(filePath) {
@@ -47,7 +47,7 @@ function updateJsdelivrUrl(filePath) {
 	filePath = resolvePath(filePath);
 	let text = fs.readFileSync(filePath, 'utf-8');
 
-	text = text.replace(/\/\/cdn\.jsdelivr\.net\/npm\/sequential-workflow-designer@\d+\.\d+\.\d+/g, (found) => {
+	text = text.replace(/\/\/cdn\.jsdelivr\.net\/npm\/custom-react-flow@\d+\.\d+\.\d+/g, (found) => {
 		const parts = found.split('@');
 		return `${parts[0]}@${version}`;
 	});

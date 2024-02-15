@@ -26,7 +26,7 @@ This version corrects a bug in the `moveViewportToStep` method that caused the v
 
 ## 0.18.1
 
-This version exposes the definition walker from the `Designer` class [#109](https://github.com/nocode-js/sequential-workflow-designer/issues/109).
+This version exposes the definition walker from the `Designer` class [#109](https://github.com/nocode-js/custom-react-flow/issues/109).
 
 ```js
 const walker = designer.getWalker();
@@ -34,7 +34,7 @@ const walker = designer.getWalker();
 
 ## 0.18.0
 
-This version fixes the problem with scrolling [#105](https://github.com/nocode-js/sequential-workflow-designer/issues/105).
+This version fixes the problem with scrolling [#105](https://github.com/nocode-js/custom-react-flow/issues/105).
 
 ## 0.17.0
 
@@ -74,7 +74,7 @@ This version also renames the `sqd-global-editor` class of the root editor into 
 
 ## 0.16.10
 
-This version fixes the error: `Failed to execute 'removeChild' on 'Node'` when a user uses the undo feature [#100](https://github.com/nocode-js/sequential-workflow-designer/issues/100).
+This version fixes the error: `Failed to execute 'removeChild' on 'Node'` when a user uses the undo feature [#100](https://github.com/nocode-js/custom-react-flow/issues/100).
 
 Additionally, this version introduces `getViewport`, `setViewport` methods and `onViewportChanged` event in the `Designer` class.
 
@@ -114,7 +114,7 @@ This version introduces a wrapper for Svelte framework! 🎉
 
 ## 0.16.5
 
-This version fixes the bug with scrolling in the toolbox [#92](https://github.com/nocode-js/sequential-workflow-designer/issues/92).
+This version fixes the bug with scrolling in the toolbox [#92](https://github.com/nocode-js/custom-react-flow/issues/92).
 
 ## 0.16.4
 
@@ -181,7 +181,7 @@ This is a re-release of the 0.15.2 version.
 
 This version introduces a new approach to customizing the designer. Prior to this version, customization was challenging and required numerous CSS overrides. Now, the designer provides SCSS files with mixins, simplifying the customization process.
 
-We have prepared a [tutorial on creating a custom theme](https://nocode-js.com/docs/sequential-workflow-designer/features/custom-theme), which is exclusively available for pro version clients.
+We have prepared a [tutorial on creating a custom theme](https://nocode-js.com/docs/custom-react-flow/features/custom-theme), which is exclusively available for pro version clients.
 
 Please note that the `designer.css`, `designer-light.css`, and `designer-dark.css` files are still available as they were before. If you have been using these files without any overrides, you don't need to make any changes.
 
@@ -208,7 +208,7 @@ This version includes the ability to hide the context menu for Angular and React
 <sqd-designer [contextMenu]="false" ...></sqd-designer>
 ```
 
-🌟 The pro version introduces the loading badge. Check the [badges example](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/badges.html).
+🌟 The pro version introduces the loading badge. Check the [badges example](https://nocode-js.github.io/custom-react-flow-pro-demo/demos/webpack-pro-app/public/badges.html).
 
 ## 0.14.0
 
@@ -397,7 +397,7 @@ designer.updateBadges();
 
 ## 0.9.2
 
-The `sequential-workflow-designer-angular` package supports Angular 12 - 15 now.
+The `custom-react-flow-angular` package supports Angular 12 - 15 now.
 
 ## 0.9.1
 
@@ -436,19 +436,19 @@ const configuration = {
 
 ## React & Angular
 
-The `controlBar` property is required from now. This change applies for the `sequential-workflow-designer-angular` and `sequential-workflow-designer-react` packages as well.
+The `controlBar` property is required from now. This change applies for the `custom-react-flow-angular` and `custom-react-flow-react` packages as well.
 
 ## 0.8.1
 
 Changed format of bundles:
 
-* `sequential-workflow-designer` to UMD, ESM and CommonJS,
-* `sequential-workflow-designer-react` to ESM and CommonJS.
+* `custom-react-flow` to UMD, ESM and CommonJS,
+* `custom-react-flow-react` to ESM and CommonJS.
 
 ## 0.8.0
 
 * This release introduces a better support for TypeScript.
-* The model of the workflow definition is moved from the `sequential-workflow-designer` package to the `sequential-workflow-model` package. By this it's possible to create a common package with your workflow model and use it for the front-end and back-end applications at the same time. The `sequential-workflow-designer` package exports definition types as before, but these types come from the `sequential-workflow-model` package. You don't have to include the `sequential-workflow-model` package to your project if you don't need it. You can read more about this approach [here](https://nocode-js.com/docs/sequential-workflow-designer/sharing-types-between-frontend-and-backend).
+* The model of the workflow definition is moved from the `custom-react-flow` package to the `sequential-workflow-model` package. By this it's possible to create a common package with your workflow model and use it for the front-end and back-end applications at the same time. The `custom-react-flow` package exports definition types as before, but these types come from the `sequential-workflow-model` package. You don't have to include the `sequential-workflow-model` package to your project if you don't need it. You can read more about this approach [here](https://nocode-js.com/docs/custom-react-flow/sharing-types-between-frontend-and-backend).
 
 #### Breaking Changes
 
@@ -516,13 +516,13 @@ This version brings rendering speed improvements. Check the `stress-test.html` e
 
 This version introduces new build formats (ESM, UMD) of the package.
 
-🤩 For more advanced use cases we prepared **the paid pro package**. The package is in the early stage. Currently it contains advanced components for steps. [Here](https://github.com/nocode-js/sequential-workflow-designer-pro-demo) you can find more information and examples.
+🤩 For more advanced use cases we prepared **the paid pro package**. The package is in the early stage. Currently it contains advanced components for steps. [Here](https://github.com/nocode-js/custom-react-flow-pro-demo) you can find more information and examples.
 
 #### Breaking Changes
 
 * Default export of the `Designer` class is removed. Now you should import directly the `Designer` class.
   ```ts
-  import { Designer } from 'sequential-workflow-designer';
+  import { Designer } from 'custom-react-flow';
   Designer.create(/* ... */);
   ```
 
@@ -542,7 +542,7 @@ This version introduces new build formats (ESM, UMD) of the package.
 * Static method `Designer.utils.nextId()` is deleted. You should use the `next()` from the `Uid` class. Example: 
 
   ```ts
-  import { Uid } from 'sequential-workflow-designer';
+  import { Uid } from 'custom-react-flow';
   Uid.next();
   ```
 

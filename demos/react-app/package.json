@@ -1,13 +1,13 @@
 {
-	"name": "sequential-workflow-designer-react-app-demo",
+	"name": "custom-react-flow-react-app-demo",
 	"version": "0.0.0",
 	"private": true,
 	"homepage": "./",
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"sequential-workflow-designer": "^0.18.5",
-		"sequential-workflow-designer-react": "^0.18.5"
+		"custom-react-flow": "^0.18.5",
+		"custom-react-flow-react": "^0.18.5"
 	},
 	"devDependencies": {
 		"@types/jest": "^29.2.5",

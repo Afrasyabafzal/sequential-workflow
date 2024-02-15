@@ -1,5 +1,5 @@
 import { Context, createContext, useContext, useState, ReactNode } from 'react';
-import { StepEditorContext, PropertyValue, Step, Definition } from 'sequential-workflow-designer';
+import { StepEditorContext, PropertyValue, Step, Definition } from 'custom-react-flow';
 
 declare global {
 	interface Window {

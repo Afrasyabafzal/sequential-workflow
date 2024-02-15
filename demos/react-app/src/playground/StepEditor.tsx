@@ -1,5 +1,5 @@
 import { ChangeEvent } from 'react';
-import { useStepEditor } from 'sequential-workflow-designer-react';
+import { useStepEditor } from 'custom-react-flow-react';
 import { SwitchStep, TaskStep } from './model';
 
 export function StepEditor() {

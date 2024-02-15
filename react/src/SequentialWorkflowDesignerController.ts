@@ -1,5 +1,5 @@
 import { DependencyList, useMemo } from 'react';
-import { Definition, Designer } from 'sequential-workflow-designer';
+import { Definition, Designer } from 'custom-react-flow';
 
 export class SequentialWorkflowDesignerController {
 	public static create(): SequentialWorkflowDesignerController {

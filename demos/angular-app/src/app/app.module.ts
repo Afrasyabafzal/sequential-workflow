@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SequentialWorkflowDesignerModule } from 'sequential-workflow-designer-angular';
+import { SequentialWorkflowDesignerModule } from 'custom-react-flow-angular';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';

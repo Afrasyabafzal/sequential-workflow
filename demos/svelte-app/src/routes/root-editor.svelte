@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { RootEditorContext, Definition } from 'sequential-workflow-designer';
+	import type { RootEditorContext, Definition } from 'custom-react-flow';
 
 	export let context: RootEditorContext;
 	export let definition: Definition;

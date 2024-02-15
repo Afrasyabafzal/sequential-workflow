@@ -1,5 +1,5 @@
 import { ChangeEvent } from 'react';
-import { useRootEditor } from 'sequential-workflow-designer-react';
+import { useRootEditor } from 'custom-react-flow-react';
 import { WorkflowDefinition } from './model';
 
 export function RootEditor() {

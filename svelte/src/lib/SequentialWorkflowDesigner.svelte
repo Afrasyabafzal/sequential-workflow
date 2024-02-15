@@ -18,7 +18,7 @@
 		type StepEditorProvider,
 		type RootEditorProvider,
 		type KeyboardConfiguration
-	} from 'sequential-workflow-designer';
+	} from 'custom-react-flow';
 
 	const dispatch = createEventDispatcher<{
 		definitionChanged: {

@@ -17,7 +17,7 @@ import {
 	RootEditorProvider,
 	StepEditorProvider,
 	KeyboardConfiguration
-} from 'sequential-workflow-designer';
+} from 'custom-react-flow';
 import { RootEditorWrapperContext } from './RootEditorWrapper';
 import { StepEditorWrapperContext } from './StepEditorWrapper';
 import { wrapDefinition, WrappedDefinition } from './WrappedDefinition';

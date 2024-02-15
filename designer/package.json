@@ -1,5 +1,5 @@
 {
-	"name": "sequential-workflow-designer",
+	"name": "custom-react-flow",
 	"description": "Customizable no-code component for building flow-based programming applications.",
 	"version": "0.18.5",
 	"type": "module",
@@ -46,7 +46,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nocode-js/sequential-workflow-designer.git"
+		"url": "https://github.com/nocode-js/custom-react-flow.git"
 	},
 	"files": [
 		"lib/",

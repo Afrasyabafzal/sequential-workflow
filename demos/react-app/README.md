@@ -1,6 +1,6 @@
 # Demo of Sequential Workflow Designer for React
 
-This project contains a simple demo of using the `sequential-workflow-designer-react` package.
+This project contains a simple demo of using the `custom-react-flow-react` package.
 
 ## 🚀 How to Run Locally
 

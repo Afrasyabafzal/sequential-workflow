@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { StepEditorContext, Definition, Step } from 'sequential-workflow-designer';
+	import type { StepEditorContext, Definition, Step } from 'custom-react-flow';
 
 	export let context: StepEditorContext;
 	export let definition: Definition;

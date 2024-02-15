@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ObjectCloner, Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from 'sequential-workflow-designer';
-import { SequentialWorkflowDesigner, wrapDefinition } from 'sequential-workflow-designer-react';
+import { ObjectCloner, Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from 'custom-react-flow';
+import { SequentialWorkflowDesigner, wrapDefinition } from 'custom-react-flow-react';
 import { RootEditor } from './RootEditor';
 import { StepEditor } from './StepEditor';
 import { createSwitchStep, createTaskStep } from './StepUtils';
-import { useSequentialWorkflowDesignerController } from 'sequential-workflow-designer-react';
+import { useSequentialWorkflowDesignerController } from 'custom-react-flow-react';
 import { WorkflowDefinition } from './model';
 
 const startDefinition: WorkflowDefinition = {

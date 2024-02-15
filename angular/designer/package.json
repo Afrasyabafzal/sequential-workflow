@@ -1,5 +1,5 @@
 {
-	"name": "sequential-workflow-designer-angular",
+	"name": "custom-react-flow-angular",
 	"description": "Angular wrapper for Sequential Workflow Designer component.",
 	"version": "0.18.5",
 	"author": {
@@ -10,12 +10,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nocode-js/sequential-workflow-designer.git"
+		"url": "https://github.com/nocode-js/custom-react-flow.git"
 	},
 	"peerDependencies": {
 		"@angular/common": "12 - 16",
 		"@angular/core": "12 - 16",
-		"sequential-workflow-designer": "^0.18.5"
+		"custom-react-flow": "^0.18.5"
 	},
 	"dependencies": {
 		"tslib": "^2.3.0"

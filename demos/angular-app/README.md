@@ -1,6 +1,6 @@
 # Demo of Sequential Workflow Designer for Angular
 
-This project contains a simple demo of using the `sequential-workflow-designer-angular` package.
+This project contains a simple demo of using the `custom-react-flow-angular` package.
 
 ## 🚀 How to Run Locally
 
@@ -14,8 +14,8 @@ Replace dependencies in the `package.json` file:
 
 ```
 "dependencies": {
-  "sequential-workflow-designer": "file:../../designer",
-  "sequential-workflow-designer-angular": "file:../../angular/designer-dist"
+  "custom-react-flow": "file:../../designer",
+  "custom-react-flow-angular": "file:../../angular/designer-dist"
 }
 ```
 

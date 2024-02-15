@@ -2,7 +2,7 @@
 
 # Sequential Workflow Designer
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fsequential-workflow-designer%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/sequential-workflow-designer/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/sequential-workflow-designer.svg?style=flat-square)](https://npmjs.org/package/sequential-workflow-designer)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fcustom-react-flow%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/custom-react-flow/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/custom-react-flow.svg?style=flat-square)](https://npmjs.org/package/custom-react-flow)
 
 Sequential workflow designer with 0 external dependencies for web applications. It's written in pure TypeScript and uses SVG for rendering. This designer is not associated with any workflow engine. It's full generic. You may create any kind application by this, from graphical programming languages to workflow builders.
 
@@ -15,45 +15,45 @@ Features:
 * the definition is stored as JSON,
 * supports [Angular](./angular/designer/), [React](./react/) and [Svelte](./svelte/).
 
-📝 Check the [documentation](https://nocode-js.com/docs/category/sequential-workflow-designer) for more details.
+📝 Check the [documentation](https://nocode-js.com/docs/category/custom-react-flow) for more details.
 
-🤩 Don't miss [the pro version](https://nocode-js.com/sequential-workflow-designer-pro-pricing).
+🤩 Don't miss [the pro version](https://nocode-js.com/custom-react-flow-pro-pricing).
 
 ## 👀 Examples
 
-* [⏩ Live Testing](https://nocode-js.github.io/sequential-workflow-designer/examples/live-testing.html)
-* [❎ Fullscreen](https://nocode-js.github.io/sequential-workflow-designer/examples/fullscreen.html)
-* [🌅 Image Filter](https://nocode-js.github.io/sequential-workflow-designer/examples/image-filter.html)
-* [🔴 Particles](https://nocode-js.github.io/sequential-workflow-designer/examples/particles.html)
-* [⛅ Light Dark](https://nocode-js.github.io/sequential-workflow-designer/examples/light-dark.html)
-* [🤖 Code Generator](https://nocode-js.github.io/sequential-workflow-designer/examples/code-generator.html)
-* [🌻 Rendering Test](https://nocode-js.github.io/sequential-workflow-designer/examples/rendering-test.html)
-* [🚄 Stress Test](https://nocode-js.github.io/sequential-workflow-designer/examples/stress-test.html)
-* [🚪 Editing Restrictions](https://nocode-js.github.io/sequential-workflow-designer/examples/editing-restrictions.html)
-* [📜 Scrollable Page](https://nocode-js.github.io/sequential-workflow-designer/examples/scrollable-page.html)
-* [🌵 Multi-Conditional Switch](https://nocode-js.github.io/sequential-workflow-designer/examples/multi-conditional-switch.html)
-* [🌀 Auto-Select](https://nocode-js.github.io/sequential-workflow-designer/examples/auto-select.html)
-* [Angular Demo](https://nocode-js.github.io/sequential-workflow-designer/angular-app/)
-* [React Demo](https://nocode-js.github.io/sequential-workflow-designer/react-app/)
-* [Svelte Demo](https://nocode-js.github.io/sequential-workflow-designer/svelte-app/)
+* [⏩ Live Testing](https://nocode-js.github.io/custom-react-flow/examples/live-testing.html)
+* [❎ Fullscreen](https://nocode-js.github.io/custom-react-flow/examples/fullscreen.html)
+* [🌅 Image Filter](https://nocode-js.github.io/custom-react-flow/examples/image-filter.html)
+* [🔴 Particles](https://nocode-js.github.io/custom-react-flow/examples/particles.html)
+* [⛅ Light Dark](https://nocode-js.github.io/custom-react-flow/examples/light-dark.html)
+* [🤖 Code Generator](https://nocode-js.github.io/custom-react-flow/examples/code-generator.html)
+* [🌻 Rendering Test](https://nocode-js.github.io/custom-react-flow/examples/rendering-test.html)
+* [🚄 Stress Test](https://nocode-js.github.io/custom-react-flow/examples/stress-test.html)
+* [🚪 Editing Restrictions](https://nocode-js.github.io/custom-react-flow/examples/editing-restrictions.html)
+* [📜 Scrollable Page](https://nocode-js.github.io/custom-react-flow/examples/scrollable-page.html)
+* [🌵 Multi-Conditional Switch](https://nocode-js.github.io/custom-react-flow/examples/multi-conditional-switch.html)
+* [🌀 Auto-Select](https://nocode-js.github.io/custom-react-flow/examples/auto-select.html)
+* [Angular Demo](https://nocode-js.github.io/custom-react-flow/angular-app/)
+* [React Demo](https://nocode-js.github.io/custom-react-flow/react-app/)
+* [Svelte Demo](https://nocode-js.github.io/custom-react-flow/svelte-app/)
 
 Pro:
 
-* [🤩 Pro Components](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/pro-components.html)
-* [🍬 Custom Theme Flat](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/custom-theme-flat.html)
-* [🌹 Custom Step Types](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/custom-step-types.html)
-* [👈 Goto](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/goto.html)
-* [📁 Folders](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/folders.html)
-* [⭕ Wheel Mode](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/wheel-mode.html)
-* [💠 Grid](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/grid.html)
-* [🐭 Minimal Root Component](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/minimal-root-component.html)
-* [🦁 External UI Components](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/external-ui-components.html)
-* [👋 Custom Dragged Component](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/custom-dragged-component.html)
-* [🔰 Badges](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/badges.html)
-* [🎩 Custom Viewport](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/custom-viewport.html)
-* [🛎 Clickable Placeholder](https://nocode-js.com/examples/sequential-workflow-designer-pro/webpack-pro-app/public/clickable-placeholder.html)
-* [React Pro Demo](https://nocode-js.com/examples/sequential-workflow-designer-pro/react-pro-app/build/index.html)
-* [Angular Pro Demo](https://nocode-js.com/examples/sequential-workflow-designer-pro/angular-pro-app/angular-app/index.html)
+* [🤩 Pro Components](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/pro-components.html)
+* [🍬 Custom Theme Flat](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/custom-theme-flat.html)
+* [🌹 Custom Step Types](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/custom-step-types.html)
+* [👈 Goto](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/goto.html)
+* [📁 Folders](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/folders.html)
+* [⭕ Wheel Mode](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/wheel-mode.html)
+* [💠 Grid](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/grid.html)
+* [🐭 Minimal Root Component](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/minimal-root-component.html)
+* [🦁 External UI Components](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/external-ui-components.html)
+* [👋 Custom Dragged Component](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/custom-dragged-component.html)
+* [🔰 Badges](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/badges.html)
+* [🎩 Custom Viewport](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/custom-viewport.html)
+* [🛎 Clickable Placeholder](https://nocode-js.com/examples/custom-react-flow-pro/webpack-pro-app/public/clickable-placeholder.html)
+* [React Pro Demo](https://nocode-js.com/examples/custom-react-flow-pro/react-pro-app/build/index.html)
+* [Angular Pro Demo](https://nocode-js.com/examples/custom-react-flow-pro/angular-pro-app/angular-app/index.html)
 
 ## 👩‍💻 Integrations
 
@@ -68,20 +68,20 @@ To use the designer you should add JS/TS files and CSS files to your project.
 
 Install this package by [NPM](https://www.npmjs.com/) command:
 
-`npm i sequential-workflow-designer`
+`npm i custom-react-flow`
 
 To import the package:
 
 ```ts
-import { Designer } from 'sequential-workflow-designer';
+import { Designer } from 'custom-react-flow';
 ```
 
 If you use [css-loader](https://webpack.js.org/loaders/css-loader/) or similar, you can add CSS files to your bundle:
 
 ```ts
-import 'sequential-workflow-designer/css/designer.css';
-import 'sequential-workflow-designer/css/designer-light.css';
-import 'sequential-workflow-designer/css/designer-dark.css';
+import 'custom-react-flow/css/designer.css';
+import 'custom-react-flow/css/designer-light.css';
+import 'custom-react-flow/css/designer-dark.css';
 ```
 
 To create the designer write the below code:
@@ -98,10 +98,10 @@ Add the below code to your head section in HTML document.
 ```html
 <head>
 ...
-<link href="https://cdn.jsdelivr.net/npm/sequential-workflow-designer@0.18.5/css/designer.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/sequential-workflow-designer@0.18.5/css/designer-light.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/sequential-workflow-designer@0.18.5/css/designer-dark.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sequential-workflow-designer@0.18.5/dist/index.umd.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/custom-react-flow@0.18.5/css/designer.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/custom-react-flow@0.18.5/css/designer-light.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/custom-react-flow@0.18.5/css/designer-dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/custom-react-flow@0.18.5/dist/index.umd.js"></script>
 ```
 
 Call the designer by:
@@ -115,7 +115,7 @@ sequentialWorkflowDesigner.Designer.create(placeholder, definition, configuratio
 Check [examples](/examples) directory.
 
 ```ts
-import { Designer } from 'sequential-workflow-designer';
+import { Designer } from 'custom-react-flow';
 
 const placeholder = document.getElementById('placeholder');
 

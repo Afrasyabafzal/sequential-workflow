@@ -1,4 +1,4 @@
-import { Uid } from 'sequential-workflow-designer';
+import { Uid } from 'custom-react-flow';
 import { SwitchStep, TaskStep } from './model';
 
 export function createTaskStep(): TaskStep {

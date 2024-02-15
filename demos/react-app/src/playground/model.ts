@@ -1,4 +1,4 @@
-import { Step, BranchedStep, Definition } from 'sequential-workflow-designer';
+import { Step, BranchedStep, Definition } from 'custom-react-flow';
 
 export interface WorkflowDefinition extends Definition {
 	properties: {

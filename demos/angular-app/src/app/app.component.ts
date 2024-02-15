@@ -10,7 +10,7 @@ import {
 	StepsConfiguration,
 	ToolboxConfiguration,
 	ValidatorConfiguration
-} from 'sequential-workflow-designer';
+} from 'custom-react-flow';
 
 function createStep(): Step {
 	return {

@@ -29,7 +29,7 @@ import {
 	ToolboxConfiguration,
 	UidGenerator,
 	ValidatorConfiguration
-} from 'sequential-workflow-designer';
+} from 'custom-react-flow';
 
 export interface RootEditorWrapper {
 	definition: Definition;

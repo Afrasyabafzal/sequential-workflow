@@ -26,9 +26,9 @@
 						"styles": [
 							"@angular/material/prebuilt-themes/indigo-pink.css",
 							"src/styles.css",
-							"./node_modules/sequential-workflow-designer/css/designer.css",
-							"./node_modules/sequential-workflow-designer/css/designer-light.css",
-							"./node_modules/sequential-workflow-designer/css/designer-dark.css"
+							"./node_modules/custom-react-flow/css/designer.css",
+							"./node_modules/custom-react-flow/css/designer-light.css",
+							"./node_modules/custom-react-flow/css/designer-dark.css"
 						],
 						"scripts": []
 					},
