@@ -1,5 +1,6 @@
 {
-	"private": true,
+	"private": false,
+	"name": "custom-react-flow",
 	"scripts": {
 		"build": "yarn workspaces run build",
 		"test:single": "yarn workspaces run test:single",
