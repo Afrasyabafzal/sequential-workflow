@@ -47,7 +47,7 @@
 	"peerDependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"custom-react-flow": "^0.18.5"
+		"custom-react-flow": "^0.0.3"
 	},
 	"devDependencies": {
 		"@rollup/plugin-node-resolve": "^15.0.1",
