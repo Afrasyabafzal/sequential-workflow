@@ -11,7 +11,7 @@ describe('RootEditorWrapper', () => {
 	const context: RootEditorContext = {
 		notifyPropertiesChanged() {
 			//
-		}
+		} 
 	};
 
 	it('renders child correctly', () => {
